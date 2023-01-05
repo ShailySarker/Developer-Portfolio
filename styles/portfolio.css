@@ -1,5 +1,6 @@
 /* ctrl+Alt+Tab = show all window 
-alt+shift+F= all resized */
+alt+shift+F= all resized 
+alt+shift+down arrow=duplicate*/
 
 
 * {
@@ -127,7 +128,7 @@ section{
     justify-content: space-around;
 }
 
-.about-info {}
+/* .about-info {} */
 
 .about .info-title {
     color: #757575;
@@ -143,6 +144,7 @@ section{
 
 
 /* what i do styles */
+
 .what-i-do {
     /* margin-top: 130px; */
     /* text-align: center;
@@ -189,3 +191,46 @@ section{
     color: #757575;
 
 }
+
+
+/* resume style */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume .title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+    
+}
+.resume .subtitle{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.resume .description{
+    color: #757575;
+}
+
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* section .resume-content{
+    display: flex;
+} */
+/* .resume-info{
+    display: flex;
+    text-align: center;
+} */
