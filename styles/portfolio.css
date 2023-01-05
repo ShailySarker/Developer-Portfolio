@@ -234,3 +234,36 @@ section{
     display: flex;
     text-align: center;
 } */
+
+/* contact style */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    
+}
+.contact .section-title{
+    text-align: left;
+
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+
+}
+
+input{
+    height: 64px;
+}
+
+.contact a{
+    text-decoration: none;
+    /* column-gap: 24px; */
+    /* link ar under line none */
+    margin-right: 24px;
+
+}
