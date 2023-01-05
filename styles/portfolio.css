@@ -35,7 +35,9 @@ alt+shift+down arrow=duplicate*/
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    /* margin: 50px 200px; */
+    padding: 50px 200px;
+    /* blending ar jonno  */
 }
 
 .nav-title {
